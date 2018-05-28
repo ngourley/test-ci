@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'env'
                 sh 'echo "Derp"'
-                git 'git log master --merges --oneline
+                git 'git log master --merges --oneline'
             }
         }
     }
